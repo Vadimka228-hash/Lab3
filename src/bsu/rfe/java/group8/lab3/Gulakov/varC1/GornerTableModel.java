@@ -33,7 +33,7 @@ public class GornerTableModel extends AbstractTableModel{
 		return 4;
 	}
 	
-	@SuppressWarnings("deprecation")
+
 	public int getRowCount() {
 		return new Double(Math.ceil((to-from)/step)).intValue()+1;
 	}
@@ -76,13 +76,13 @@ public class GornerTableModel extends AbstractTableModel{
 		  
 		  switch (col){
 		  case 0:
-			  return "Значение X";
+			  return "Значение X: ";
 			  case 1:
-				  return "Значение многочлена";
+				  return "Значение многочлена: ";
 				  case 2:
-					  return "Наоборот";
+					  return "Наоборот: ";
 					  default:
-						  return "Разница";
+						  return "Разница: ";
 						  }
 		  }	
 	  }

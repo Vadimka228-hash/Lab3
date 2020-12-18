@@ -51,12 +51,12 @@ public class GornerTableCellRenderer implements TableCellRenderer
 		  label.setText(formattedDouble); 
 		 
 		  if ((col+row)%2 == 0){
-	        	panel.setBackground(Color.BLACK);
-	        	label.setForeground(Color.WHITE);
+	        	panel.setBackground(Color.WHITE);
+	        	label.setForeground(Color.BLACK);
 		  }else {
 			  
-			 panel.setBackground(Color.WHITE);
-			 label.setForeground(Color.BLACK);
+			 panel.setBackground(Color.BLACK);
+			 label.setForeground(Color.WHITE);
 		  }
 		  
 		if (col >= 1 && needle!=null && needle.equals(formattedDouble)) {

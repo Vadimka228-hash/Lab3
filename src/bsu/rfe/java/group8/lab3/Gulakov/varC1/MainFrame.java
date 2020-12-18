@@ -198,7 +198,7 @@ public class MainFrame extends JFrame{
 			public void actionPerformed(ActionEvent event) 
 			{ 
 				JOptionPane.showMessageDialog(MainFrame.this,
-						"Автор:\n Гулаков \n 8-я группа");
+						"Автор:\n Гулаков Вадим \n 8-я группа");
 				} 
 			};
 			
